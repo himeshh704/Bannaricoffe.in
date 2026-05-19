@@ -507,6 +507,7 @@
   .story-image{flex:0 0 auto}
   .values-grid{grid-template-columns:repeat(2,1fr)}
   .menu-items-grid{grid-template-columns:1fr}
+  .menu-category{padding:30px}
   .gallery-masonry{grid-template-columns:repeat(2,1fr)}
   .timeline-item,.timeline-item.right{flex-direction:column;text-align:center}
   .timeline::before{left:20px}
@@ -517,6 +518,9 @@
 @media(max-width:600px){
   .about-story,.full-menu,.gallery-full,.heritage-timeline{padding:40px 20px}
   .values-grid{grid-template-columns:1fr}
+  .menu-category{padding:25px 15px;margin-bottom:30px}
+  .cat-header h2{font-size:18px;letter-spacing:1px;white-space:normal;text-align:center}
+  .cat-header .heading-line{display:none}
   .gallery-masonry{grid-template-columns:1fr;grid-auto-rows:200px}
   .gal-card.tall,.gal-card.wide{grid-column:span 1;grid-row:span 1}
   .page-hero-content h1{font-size:32px}
