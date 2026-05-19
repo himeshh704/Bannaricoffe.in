@@ -211,10 +211,28 @@ ul{list-style:none}
 }
 .poster-title h2{
   font-family:'Cinzel',serif;font-size:22px;font-weight:800;
-  letter-spacing:4px;color:var(--navy);white-space:nowrap;
+  letter-spacing:4px;color:var(--navy);
   text-align:center;
 }
 .heading-line{flex:1;height:2px;background:var(--navy);max-width:100px}
+
+/* Menu Action Row */
+.menu-action-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+.menu-action-row .btn-plaque {
+  background: var(--navy);
+  color: var(--cream);
+  border-color: var(--gold);
+  padding: 16px 40px;
+  font-size: 14px;
+}
+.menu-action-row .btn-plaque:hover {
+  background: var(--gold);
+  color: var(--navy);
+}
 
 /* Category card */
 .poster-category{
@@ -713,7 +731,9 @@ ul{list-style:none}
   .gallery-row{flex-wrap:wrap}
   .g-item{flex:0 0 calc(50% - 6px)}
   .contact-boxes{flex-direction:column;gap:30px;align-items:center}
-  .footer-grid{flex-direction:column;gap:30px}
+  .footer-grid{flex-direction:column;gap:30px;align-items:center;text-align:center;}
+  .footer-brand{align-items:center;}
+  .social-row{justify-content:center;}
   .preview-grid {
     grid-template-columns: 1fr;
     gap: 30px;
@@ -726,6 +746,7 @@ ul{list-style:none}
   .hero{padding:50px 20px}
   .hero h1{font-size:36px}
   .h1-smaller{font-size:22px}
+  .poster-title h2{font-size:18px;letter-spacing:2px;}
   .menu-section{padding:30px 15px}
   .menu-frame{padding:25px 15px}
   .hero-btns{flex-direction:column;gap:12px}
