@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Royal Chronicles | Banna Ri Coffee – The Symbol of Royality</title>
+    <meta name="description" content="Read the Royal Chronicles of Banna Ri Coffee. Discover Rajputana heritage, brewing philosophies, and culinary stories behind Jodhpur's finest café.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pages.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar" class="navbar">
+    <div class="nav-inner">
+        <div class="corner-ornament tl"></div><div class="corner-ornament tr"></div>
+        <div class="corner-ornament bl"></div><div class="corner-ornament br"></div>
+        <a href="index.html" class="nav-logo"><img src="logo.png" alt="Banna Ri Coffee" class="logo-img"></a>
+        <div class="nav-links">
+            <a href="index.html">HOME</a><a href="about.html">ABOUT US</a><a href="menu.html">MENU</a>
+            <a href="blog.html" class="active">BLOG</a><a href="heritage.html">OUR HERITAGE</a><a href="index.html#contact">CONTACT</a>
+        </div>
+        <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Toggle Menu">☰</button>
+        <a href="https://wa.me/918690031102?text=Jai%20Rajputana!%20I%20would%20like%20to%20place%20an%20order%20or%20inquire%20about%20Banna%20Ri%20Coffee." class="order-btn" target="_blank" rel="noopener noreferrer">ORDER NOW</a>
+    </div>
+</nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+    <div class="page-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1599661555355-61b6c6b4458f?q=80&w=1400&auto=format&fit=crop')"></div>
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+        <p class="hero-tagline"><span class="diamond-sm"></span> RAJPUTANA STORIES <span class="diamond-sm"></span></p>
+        <h1>THE ROYAL CHRONICLES</h1>
+        <div class="hero-rule"><span class="rule-line"></span><span class="hero-sub">TRADITION, TASTE, & LEGACY</span><span class="rule-line"></span></div>
+    </div>
+</section>
+
+<!-- BLOG SECTION -->
+<section class="blog-full">
+    <div class="blog-container">
+        
+        <!-- Category Filter Bar -->
+        <div class="blog-filter-bar">
+            <button class="filter-btn active" data-filter="all">ALL STORIES</button>
+            <button class="filter-btn" data-filter="heritage">HERITAGE</button>
+            <button class="filter-btn" data-filter="fusion">FUSION</button>
+            <button class="filter-btn" data-filter="tradition">TRADITION</button>
+            <button class="filter-btn" data-filter="brews">BREWS</button>
+        </div>
+
+        <!-- Blog Grid -->
+        <div class="blog-grid" id="blogGrid">
+            
+            <!-- Card 1 -->
+            <div class="blog-card" data-category="heritage">
+                <div class="blog-card-image-wrap">
+                    <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=600&auto=format&fit=crop" alt="Latte Art on Rajputana Coffee" class="blog-card-img">
+                    <span class="blog-card-tag">HERITAGE</span>
+                </div>
+                <div class="blog-card-content">
+                    <div class="blog-card-meta">15 MAY 2026 <span class="diamond-sm" style="width:5px; height:5px;"></span> BY BANNA RI</div>
+                    <h3 class="blog-card-title">The Heritage of Rajputana Coffee Culture</h3>
+                    <p class="blog-card-excerpt">Discover how the spirit of Rajput hospitality translates into the art of brewing premium coffee concoctions, creating a majestic experience in the heart of Jodhpur.</p>
+                    <span class="blog-read-btn" data-article="1">READ CHRONICLE</span>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="blog-card" data-category="fusion">
+                <div class="blog-card-image-wrap">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop" alt="Banna Ri Tikky Burger" class="blog-card-img">
+                    <span class="blog-card-tag">FUSION</span>
+                </div>
+                <div class="blog-card-content">
+                    <div class="blog-card-meta">10 MAY 2026 <span class="diamond-sm" style="width:5px; height:5px;"></span> BY BANNA RI</div>
+                    <h3 class="blog-card-title">Crafting the Perfect Rajputi Burger</h3>
+                    <p class="blog-card-excerpt">Go behind the scenes in Banna's kitchen to see how we blend traditional Indian spices with modern street food favorites like our Tikky Burger.</p>
+                    <span class="blog-read-btn" data-article="2">READ CHRONICLE</span>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="blog-card" data-category="tradition">
+                <div class="blog-card-image-wrap">
+                    <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=600&auto=format&fit=crop" alt="Mehrangarh Fort Jodhpur" class="blog-card-img">
+                    <span class="blog-card-tag">TRADITION</span>
+                </div>
+                <div class="blog-card-content">
+                    <div class="blog-card-meta">05 MAY 2026 <span class="diamond-sm" style="width:5px; height:5px;"></span> BY BANNA RI</div>
+                    <h3 class="blog-card-title">The Stories of Jodhpur's Royal Palaces</h3>
+                    <p class="blog-card-excerpt">Explore the architectural marvels of Mehrangarh Fort and Umaid Bhawan Palace that inspire the visual identity of Banna Ri Coffee.</p>
+                    <span class="blog-read-btn" data-article="3">READ CHRONICLE</span>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="blog-card" data-category="brews">
+                <div class="blog-card-image-wrap">
+                    <img src="hero-coffee.png" alt="Banna Yuvraj Singh's Brewing Philosophy" class="blog-card-img" style="background-color: var(--navy); object-fit: contain;">
+                    <span class="blog-card-tag">BREWS</span>
+                </div>
+                <div class="blog-card-content">
+                    <div class="blog-card-meta">28 APR 2026 <span class="diamond-sm" style="width:5px; height:5px;"></span> BY BANNA RI</div>
+                    <h3 class="blog-card-title">Banna Yuvraj Singh's Brewing Philosophy</h3>
+                    <p class="blog-card-excerpt">An exclusive look into how our founder, Yuvraj Singh Chouhan, created a unique Rajputana cafe experience for coffee lovers.</p>
+                    <span class="blog-read-btn" data-article="4">READ CHRONICLE</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- READ MODAL -->
+<div class="blog-modal" id="blogModal">
+    <div class="blog-modal-content">
+        <button class="blog-modal-close" id="modalClose" aria-label="Close Modal">✕</button>
+        <span class="blog-modal-tag" id="modalTag">HERITAGE</span>
+        <div class="blog-modal-date" id="modalDate">15 MAY 2026</div>
+        <h2 class="blog-modal-title" id="modalTitle">The Heritage of Rajputana Coffee Culture</h2>
+        <img src="" alt="Article Banner" class="blog-modal-img" id="modalImg">
+        <div class="blog-modal-text" id="modalText">
+            <!-- Dynamic full text -->
+        </div>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-grid">
+        <div class="footer-brand">
+            <img src="logo.png" alt="Banna Ri Coffee" class="footer-logo">
+            <div class="social-row">
+                <a href="#" aria-label="Facebook">f</a>
+                <a href="#" aria-label="Instagram">ig</a>
+                <a href="#" aria-label="YouTube">yt</a>
+                <a href="#" aria-label="Location">📍</a>
+            </div>
+        </div>
+        <div class="footer-col">
+            <h4>QUICK LINKS</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="menu.html">Menu</a>
+            <a href="blog.html">Blog</a>
+            <a href="heritage.html">Our Heritage</a>
+            <a href="index.html#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+            <h4>OUR SPECIALTIES</h4>
+            <a href="menu.html">Royal Refreshments</a>
+            <a href="menu.html">Fusion Feasts</a>
+            <a href="menu.html">Burgers & More</a>
+            <a href="menu.html">Coffee Concoctions</a>
+        </div>
+        <div class="footer-col">
+            <h4>FOLLOW US</h4>
+            <p>@bannaricoffee</p>
+            <p>#TheSymbolOfRoyalty</p>
+        </div>
+    </div>
+</footer>
+<div class="bottom-bar">
+    <span class="bar-line"></span><span class="diamond-sm"></span>
+    <span class="bar-text">CRAFTED WITH ROYAL TASTE</span>
+    <span class="diamond-sm"></span><span class="bar-line"></span>
+</div>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/918690031102?text=Jai%20Rajputana!%20I%20would%20like%20to%20place%20an%20order%20or%20inquire%20about%20Banna%20Ri%20Coffee." class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+    <div class="whatsapp-tooltip">ORDER / INQUIRE ON WHATSAPP</div>
+    <svg class="whatsapp-icon" viewBox="0 0 24 24">
+        <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.967C16.688 1.974 14.218 1.95 12.012 1.95c-5.438 0-9.863 4.373-9.867 9.802-.001 1.764.47 3.487 1.365 5.02L2.516 21.03l4.131-1.876zm11.758-5.321c-.328-.164-1.94-.959-2.241-1.07-.301-.11-.52-.164-.738.164-.219.329-.848 1.07-.1.328.164.738 1.07 2.241.11.3-.11.492-.41.656-.82.328-1.53-.765-2.241-1.07-.3-.11-.492-.164-.738-.164-.219 0-.52.082-.738.329s-.82.82-.82 2.001.875 2.32 1.011 2.511c.137.192 1.7 2.596 4.12 3.644.576.248 1.025.396 1.375.507.579.184 1.106.158 1.522.096.464-.069 1.94-.793 2.214-1.52.274-.728.274-1.352.192-1.488-.082-.136-.301-.219-.63-.383z"/>
+    </svg>
+</a>
+
+<!-- JAVASCRIPT LOGIC -->
+<script>
+    // Articles Database
+    const articles = {
+        "1": {
+            tag: "HERITAGE",
+            date: "15 MAY 2026",
+            title: "The Heritage of Rajputana Coffee Culture",
+            image: "https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=600&auto=format&fit=crop",
+            text: `
+                <p>Historically, hospitality (Mehmaan Nawaazi) has been a cornerstone of Rajputana culture. While tea and royal drinks like sherbets ruled the ancient palaces, the modern era brings a new ritual: Banna Ri Coffee. In our Jodhpur café, we combine the boldness of freshly ground Arabica beans with a warm, stately welcome.</p>
+                <p>Every cup is brewed to perfection, honoring our lineage. Walk into a space designed like a royal chamber, take a sip of our signature Cold Coffee, and experience the confluence of ancient culture and contemporary brewing.</p>
+                <p>We source our coffee beans from single-origin estates that align with our high standards of quality. The rich aroma and smooth body are designed to give our patrons a premium café experience that makes them feel like royalty with every sip.</p>
+            `
+        },
+        "2": {
+            tag: "FUSION",
+            date: "10 MAY 2026",
+            title: "Crafting the Perfect Rajputi Burger",
+            image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=600&auto=format&fit=crop",
+            text: `
+                <p>Fusion is not just about mixing ingredients; it is about creating harmony between two worlds. In Banna's kitchen, we take the humble burger and infuse it with royal spices from Rajasthan.</p>
+                <p>Our signature Tikky Burger features a crisp, gold-fried potato-and-herb tikki, coated with homemade chutneys that carry the punch of Jodhpur's red chilies, balanced by a creamy tandoori spread. No shortcuts are taken; everything is crafted fresh, ensuring every bite is a celebration of taste.</p>
+                <p>By blending traditional Rajputana flavor profiles with the popular fast-food format, we have created unique fusion delicacies that resonate with both heritage lovers and the modern youth of Jodhpur.</p>
+            `
+        },
+        "3": {
+            tag: "TRADITION",
+            date: "05 MAY 2026",
+            title: "The Stories of Jodhpur's Royal Palaces",
+            image: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=600&auto=format&fit=crop",
+            text: `
+                <p>Jodhpur, the legendary crown jewel of Marwar, stands proudly with its blue-hued buildings and soaring battlements. When designing Banna Ri Coffee, we sought to capture this very majesty.</p>
+                <p>The deep navy blue color of our branding represents the famous Indigo-colored houses of the old city, while our intricate gold motifs mirror the delicate stone carvings of Mehrangarh Fort. We believe that dining should be a feast for the eyes as well as the palate, and our cafe pays tribute to this eternal heritage.</p>
+                <p>Every time you visit our cafe, you are surrounded by visual cues of Rajasthan's storied past, providing a museum-like experience where heritage and hospitality meet.</p>
+            `
+        },
+        "4": {
+            tag: "BREWS",
+            date: "28 APR 2026",
+            title: "Banna Yuvraj Singh's Brewing Philosophy",
+            image: "hero-coffee.png",
+            text: `
+                <p>For Banna Yuvraj Singh Chouhan, the founder of Banna Ri Coffee, creating this café was a labor of love and honor. Growing up surrounded by the rich traditions of Rajasthan, he wanted to build a place where the youth of Jodhpur could connect with their roots while enjoying high-quality, modern refreshments.</p>
+                <p>"Our goal is simple," says Yuvraj. "We want to serve the best coffee and fusion delights without compromising on the dignity and hospitality that our culture is known for. No flashy pricing, no artificial pretension — just authentic, rich flavors fit for royalty."</p>
+                <p>By keeping the focus strictly on quality, service, and cultural authenticity, Yuvraj has established Banna Ri Coffee as a proud symbol of hospitality in Sector 3, Kudi Bhagtasni Housing Board, Jodhpur.</p>
+            `
+        }
+    };
+
+    document.addEventListener("DOMContentLoaded", function() {
+        // --- MOBILE MENU TOGGLE ---
+        const mobileToggle = document.getElementById("mobile-toggle");
+        const navLinks = document.querySelector(".nav-links");
+        
+        if (mobileToggle && navLinks) {
+            mobileToggle.addEventListener("click", function() {
+                navLinks.classList.toggle("active");
+                if (navLinks.classList.contains("active")) {
+                    mobileToggle.innerHTML = "✕";
+                } else {
+                    mobileToggle.innerHTML = "☰";
+                }
+            });
+        }
+
+        // --- BLOG FILTER LOGIC ---
+        const filterButtons = document.querySelectorAll(".filter-btn");
+        const blogCards = document.querySelectorAll(".blog-card");
+
+        filterButtons.forEach(btn => {
+            btn.addEventListener("click", function() {
+                // Toggle active class on buttons
+                filterButtons.forEach(b => b.classList.remove("active"));
+                this.classList.add("active");
+
+                const filterValue = this.getAttribute("data-filter");
+
+                blogCards.forEach(card => {
+                    if (filterValue === "all" || card.getAttribute("data-category") === filterValue) {
+                        card.style.display = "flex";
+                    } else {
+                        card.style.display = "none";
+                    }
+                });
+            });
+        });
+
+        // --- READ MODAL POPUP LOGIC ---
+        const readBtns = document.querySelectorAll(".blog-read-btn");
+        const modal = document.getElementById("blogModal");
+        const modalClose = document.getElementById("modalClose");
+        const modalTag = document.getElementById("modalTag");
+        const modalDate = document.getElementById("modalDate");
+        const modalTitle = document.getElementById("modalTitle");
+        const modalImg = document.getElementById("modalImg");
+        const modalText = document.getElementById("modalText");
+
+        readBtns.forEach(btn => {
+            btn.addEventListener("click", function() {
+                const articleId = this.getAttribute("data-article");
+                const article = articles[articleId];
+
+                if (article) {
+                    modalTag.innerText = article.tag;
+                    modalDate.innerText = article.date;
+                    modalTitle.innerText = article.title;
+                    modalImg.src = article.image;
+                    if (articleId === "4") {
+                        modalImg.style.backgroundColor = "var(--navy)";
+                        modalImg.style.objectFit = "contain";
+                    } else {
+                        modalImg.style.backgroundColor = "";
+                        modalImg.style.objectFit = "cover";
+                    }
+                    modalText.innerHTML = article.text;
+
+                    modal.classList.add("open");
+                    document.body.style.overflow = "hidden"; // Prevent background scroll
+                }
+            });
+        });
+
+        // Close Modal on click of Close Button
+        modalClose.addEventListener("click", function() {
+            modal.classList.remove("open");
+            document.body.style.overflow = ""; // Re-enable scroll
+        });
+
+        // Close Modal on click of background overlay
+        modal.addEventListener("click", function(e) {
+            if (e.target === modal) {
+                modal.classList.remove("open");
+                document.body.style.overflow = "";
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
