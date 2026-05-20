@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://bannaricoffee.in/sitemap.xml
+Sitemap: https://banna-ri-coffee.vercel.app/sitemap.xml
